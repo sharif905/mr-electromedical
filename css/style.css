@@ -1,0 +1,249 @@
+    /* Ready CSS */
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: ;
+}
+
+    /* Header CSS */
+.header{
+    background: #fff;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 50%);
+}
+.logo img{
+    width: 150px;
+}
+.menu-d ul{
+    margin-bottom: 0;
+}
+.menu-d li{
+    display: inline;
+    margin: 0 5px;
+    position: relative;
+}
+.menu-d li::after{
+    position: absolute;
+    position: absolute;
+    content: "";
+    width: 100%;
+    color: #FBC108;
+    border-top: 3px solid;
+    left: 0;
+    top: 100%;
+    border-radius: 2px;
+    transform-origin: right center;
+    transform: scale(0, 1);
+    transition: transform 0.3s ease;
+}
+.menu-d li:hover::after{
+    transform-origin: left center;
+    transform: scale(1, 1);
+}
+.menu-d li a{
+    color: #053050;
+    padding: 8px;
+}
+.menu-d span i{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+    /* Siddenav */
+.sidenav{
+    position: fixed;
+    width: 0;
+    height: 100%;
+    background: #fff;
+    right: 0;
+    top: 0;
+    z-index: 99999999;
+    color: #000;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 50%);
+    transition: 0.3s;
+}
+.closenav span i{
+    font-size: 1.7rem;
+    padding: 14px;
+}
+.sidenav ul li{
+    
+    margin: 10px 0;
+}
+.sidenav ul li a{
+    color: #000;
+    font-weight: 300;
+    transition: 0.2s;
+}
+.sidenav ul li a:hover{
+    opacity: 0.6;
+}
+
+    /* Slider */
+.slider{
+    height: 100vh;
+}
+.slider-img{
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.slider-img1{
+    background-image: url(../img/slide2.jpg);
+}
+.slider-img2{
+    background-image: url(../img/slide3.jpg);
+}
+.slider-img3{
+    background-image: url(../img/slide4.jpg);
+}
+.slider-img4{
+    background-image: url(../img/slide5.jpg);
+}
+.slider-img5{
+    background-image: url(../img/slide1.jpg);
+}
+.slider-img6{
+    background-image: url(../img/slide6.jpg);
+}
+
+    /* Section 1 CSS */
+.section1{
+    background: #EDECEC;
+
+}
+.section1 .card-text h4{
+    font-size: 2rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#4CAC99, #D6AC74);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section1 .card-text h4 p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8;
+    margin: 0 0 24px;
+    color: #5C5852;
+}
+.section1 a{
+    background: #2b6877;
+    color: #fff;
+    max-width: 360px;
+    border-radius: 1.785rem;
+    display: block;
+    line-height: 1.4;
+    font-weight: 400;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+.section1 a:hover{
+    opacity: 0.85;
+}
+.video iframe{
+   
+}
+.youtube-v iframe{
+    
+}
+
+    /* List Style */
+ul.measurement li i{
+    color: #E99065;
+}
+ul.features li i{
+    color: #1C99F4;
+}
+ul.upcomming li i{
+    color: #007ACC;
+}
+.card-img.img1{
+    background: linear-gradient(#ECB45D, #E6716B);
+}
+
+    /* Team CSS */
+.team{
+    background: #EDECEC;
+}
+.team .card.wrapper{
+    background: #EDECEC;
+}
+.team h4{
+    color: #053050;
+    border-bottom: 3px solid #FBC108;
+    display: inline-block;
+}
+.guide-team p{
+    margin-bottom: 0;
+}
+
+    /* News CSS */
+.news{
+    background: #EDECEC;
+}
+.news h2{
+    color: #053050;
+    position: relative;
+}
+.news h2::after{
+    position: absolute;
+    content: "";
+    width: 200px;
+    border: 2px solid #FBC108;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin: auto;
+}
+
+    /* Footer CSS */
+.footer{
+    background: #24252F;
+}
+.footer p{
+    margin-bottom: 0;
+    color: #fff;
+}
+.footer p a{
+    color: #FBC108;
+}
+
+/* Responsive CSS */
+@media only screen and (min-width: 960px){
+    .menubar{
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px){
+    .menu-d ul{
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .youtube-v iframe{
+        width: 300px;
+        height: auto;
+    }
+    .section1 .order1{
+        order: 1;
+        text-align: center;
+    }
+    .section1 .order2{
+        order: 2;
+    }
+  }
+  
